@@ -48,5 +48,6 @@ class Starknet(object):
 
 if __name__ == "__main__":
     s = Starknet()
+    # s.transfer_eth_by_account(YourPrivateKey, YourAccountAddress , 0x26bc5b213aacf39a3f7bc71a7f22e8e4c7439a0b220466ce2ac5387c07e2d3, 1000*10**18)
     # print(s.get_eth_balance(0x234acc3c3c30c4c427e30f61ae47184fd7cf8c4f81859e73f6f2af41e6b81c5))
     print(s.get_receipt(0x07814c04dc7a241b6cad891d2fba9c3889095903ec83a228ccefda81acc1d934))
